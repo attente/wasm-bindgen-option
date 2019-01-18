@@ -1,0 +1,3 @@
+src/wasm_bindgen_option.d.ts
+src/wasm_bindgen_option_bg.d.ts
+src/wasm_bindgen_option_bg.wasm
