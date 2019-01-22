@@ -10,6 +10,11 @@ pub fn bar() -> Foo {
     Foo::Bar
 }
 
+#[wasm_bindgen]
+pub fn baz() -> Option<i32> {
+    Some(3)
+}
+
 pub enum Foo {
     Foo = 1,
     Bar = 2,
